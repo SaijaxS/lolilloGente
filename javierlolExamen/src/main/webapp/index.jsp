@@ -17,6 +17,7 @@
 	<a href="/insertItems.jsp">Formulario de insercion de Items</a>
 	<br/>
 	<a href="/insertChampion.jsp">Formulario de insercion de Campeones</a>
-	
+	<br/>
+	<a href="/listChampion_abilities2.jsp">listado de habilidades</a>
 </body>
 </html>

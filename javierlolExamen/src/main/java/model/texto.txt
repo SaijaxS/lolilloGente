@@ -6,6 +6,8 @@ la ruta jdbc debe estar en src/main/resources
 
 2,5P). Realiza un buscador con dos campos que permita buscar champion_abilities con el rango de valores especificado (BETWEEN) 
 y devuelva un listado de las habilidades que cumplan estar dentro de ese rango.
+(comenzamos)
 
 2,5P) Dar la posibilidad de Insertar mediante un formulario y 
 Eliminar una campeón de la base de datos a partir de un listado de los mismos.
+(hecho)

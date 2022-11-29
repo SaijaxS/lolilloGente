@@ -10,6 +10,9 @@
 </head>
 <body>
 <br/>
+<form action="listChampions.jsp" method="GET">
+	Search By Name: <input type="text" name="Name">
+		<input type ="submit" value="Search"></form>
 <div class="container">
 <table class="table table-striped">
 <tr><td>Id</td><td>Nombre</td><td>Title</td><td>Lore</td><td>Tags</td><td>Habilidades</td><td>borrar</td></tr>

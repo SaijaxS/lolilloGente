@@ -2,6 +2,7 @@
 /home/usuario/DDI/javierlolExamen/src/main/java/model/Champion_stats.java
 /home/usuario/DDI/javierlolExamen/src/main/java/connection/AbstractConnection.java
 /home/usuario/DDI/javierlolExamen/src/main/java/servlet/ListChampionServlet.java
+/home/usuario/DDI/javierlolExamen/src/main/java/servlet/EliminarChampion.java
 /home/usuario/DDI/javierlolExamen/src/main/java/model/Champion_tips.java
 /home/usuario/DDI/javierlolExamen/src/main/java/repository/Champion_abilitiesRepository.java
 /home/usuario/DDI/javierlolExamen/src/main/java/servlet/ListChampion_abilitiesServlet.java

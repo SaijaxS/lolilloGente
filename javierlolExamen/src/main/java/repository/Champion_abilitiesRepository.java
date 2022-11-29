@@ -78,23 +78,5 @@ public class Champion_abilitiesRepository {
 		return habilidades;
 	}
 
-/*
-	public void delete(int id) {
-		Connection conn = manager.open(jdbcUrl);
-		PreparedStatement preparedStatement = null;
-		try {
-			preparedStatement = conn
-					.prepareStatement("DELETE FROM Alumno WHERE id = ?");
-			preparedStatement.setInt(1, id);
-			preparedStatement.executeUpdate();
-		} catch (SQLException e) {
-			e.printStackTrace();
-			throw new RuntimeException(e);
-		} finally {
-			manager.close(preparedStatement);
-			manager.close(conn);
-		}
-	}
-*/
 	
 }

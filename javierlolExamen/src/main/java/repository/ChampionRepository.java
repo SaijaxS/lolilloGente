@@ -42,6 +42,10 @@ public class ChampionRepository {
 
 	}
 	
+	//hacer un metodo que permita buscar un campeon por su nombre
+	
+
+
 	public int getLastIdChampion() {
 		int last_id = 0;
 		Connection conn = manager.open(jdbcUrl);
@@ -114,25 +118,7 @@ public class ChampionRepository {
 			manager.close(conn);
 		}
 	}
-	// public void delete(int id) {
-	// 	Connection conn = manager.open(jdbcUrl);
-	// 	PreparedStatement preparedStatement = null;
-		
-	// 	try {
-
-	// 		preparedStatement = conn
-	// 				.prepareStatement("DELETE FROM champions WHERE id = ?");
-	// 		preparedStatement.setInt(1, id);
-	// 		preparedStatement.executeUpdate();
-
-	// 	} catch (SQLException e) {
-	// 		e.printStackTrace();
-	// 		throw new RuntimeException(e);
-	// 	} finally {
-	// 		manager.close(preparedStatement);
-	// 		manager.close(conn);
-	// 	}
-	// }
+	
 
 	
 }
