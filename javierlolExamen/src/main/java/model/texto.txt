@@ -1,0 +1,11 @@
+Debes usar el script de base de datos proporcionado por el profesor
+la ruta jdbc debe estar en src/main/resources
+5P) Realiza  un buscador que permita buscar los campeones junto con su tip, usando para ello un campo para el stat 
+(Armor, Damage, Health, Health Regen, Mana, Mana Regen, Move Speed, Spell Block) un campo para la condición ( >, <, =, <=, =>)
+ y un valor cantidad especificado y devuelva un listado de las los heroes y sus tips asociados que cumplan esa condición.
+
+2,5P). Realiza un buscador con dos campos que permita buscar champion_abilities con el rango de valores especificado (BETWEEN) 
+y devuelva un listado de las habilidades que cumplan estar dentro de ese rango.
+
+2,5P) Dar la posibilidad de Insertar mediante un formulario y 
+Eliminar una campeón de la base de datos a partir de un listado de los mismos.
