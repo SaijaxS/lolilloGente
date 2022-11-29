@@ -16,7 +16,7 @@
 <div class="container">
 <table class="table table-striped">
 	<tr><td>Id</td><td>Nombre</td><td>Title</td><td>descripcion</td><td>estadisticas de habilidad</td></tr>
-	<c:forEach var="champion" items="${lista}" varStatus="indice">
+	<c:forEach var="habilidad" items="${lista}" varStatus="indice">
 	<tr style="border:1px solid black; padding:5pt">
 		<td><c:out value="${habilidad.id}"/></td>
 		<td><c:out value="${campeon.champion_name}"/></td>
