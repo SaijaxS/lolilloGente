@@ -12,7 +12,7 @@
 <br/>
 <div class="container">
 <table class="table table-striped">
-<tr><td>Id</td><td>Nombre</td><td>Title</td><td>BOrrar</td></tr>
+<tr><td>Id</td><td>Nombre</td><td>Title</td><td>Borrar</td></tr>
 <c:forEach var="item" items="${lista}" varStatus="indice">
 	<tr style="border:1px solid black; padding:5pt">
 		<td><c:out value="${item.id}"/></td>
